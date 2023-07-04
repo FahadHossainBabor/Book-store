@@ -1,0 +1,63 @@
+* {
+  /* Resetting */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+  background-color: #f4f4f4;
+  display: flex; /*display boxes in a flex row(x direction).That is the default state.y axis become cross axis */
+
+  /* flex-direction: column; Display in y direction.It become the main axis and the x axis became cross axis */
+
+  /* for creating space or  */
+
+  /* justify-content: center; for making the box in center  */
+
+  /* justify-content: space-around; */
+
+  /* justify-content: space-evenly; */
+
+  /* justify-content is always on main axis */
+  justify-content: space-between;
+
+  /* playing in y axis */
+
+  height: 500px;
+  /* always on cross axis */
+
+  /* align-items: center; */
+}
+
+.item {
+  /* creating three boxes and give them different properties */
+  height: 100px;
+  width: 100px;
+  background-color: steelblue;
+  border: 1px solid red;
+  padding: 5px;
+  margin: 10px;
+  color: #fff;
+
+  /* content text ke center e neyar jnno */
+  display: flex;
+  /* box er majkhane niye jabe.uporer line ei. main axis x axis er center
+*/
+  justify-content: center; 
+  /* box er peter moddhe niye ashbe,y axis er middle e  */
+
+  align-items: center;
+}
+
+/* .item:nth-child(3) {
+  align-self: flex-end;
+}
+
+.item:nth-child(2) {
+  align-self: center;
+} */

@@ -1,0 +1,32 @@
+*{
+    font-family: sans-serif;
+
+}
+
+.block{
+    float: left;
+    width: 33.33%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 5px;
+
+}
+
+.clr{
+    clear: both;
+}
+
+#mainblock{
+    float: left;
+    width: 70%;
+    
+}
+
+#side-bar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
